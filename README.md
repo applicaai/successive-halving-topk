@@ -76,4 +76,4 @@ Approximation quality of Successive Halving TopK for top-1,
 
 This repository will hopefully solve your problems! :)
 
-Disclaimer: this is not an official Applica.ai product (experimental or otherwise).
+_Disclaimer: this is not an official Applica.ai product (experimental or otherwise)._
