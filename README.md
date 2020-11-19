@@ -58,8 +58,8 @@ out_embs, out_scores = topk(embeddings, scores)
 out_scores.unsqueeze_(2)
 ```
 
- #### 4. Let's see how good was the approximation. 
-  We will look at the approximation of top-1 scoring vector.
+ #### 4. Let's see how good the approximation was. 
+ We will look at the approximation of the top-1 scoring vector.
 ```python
 top1_hard = embeddings[0, scores.argmax(1).squeeze(), :]
 top1_soft = out_embs[0, 0, :]
@@ -68,7 +68,7 @@ cosine_sim = torch.cosine_similarity(top1_hard, top1_soft, dim=0)   # this shoul
 print(f'Approximation quality of Successive Halving TopK for top-1,'
       f' as measured by cosine similarity is {cosine_sim.item()}.')
 ```
-The expected output is to be something like this:
+The expected output should be something like this:
 ```textmate
 Approximation quality of Successive Halving TopK for top-1,
  as measured by cosine similarity is 0.9996941685676575.
