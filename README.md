@@ -4,13 +4,16 @@ complementing the [Applica.ai](https://www.applica.ai) publication, accepted at 
 See [arXiv](https://arxiv.org/abs/2010.15552), [pdf](https://arxiv.org/pdf/2010.15552.pdf),
 [conference site](https://aaai.org/Conferences/AAAI-21/#). Cite us as:
 ```
-@misc{pietruszka2020successive,
-      title={Successive Halving Top-k Operator}, 
-      author={Michał Pietruszka and Łukasz Borchmann and Filip Graliński},
-      year={2020},
-      eprint={2010.15552},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{pietruszka2020successive,
+      title={Successive Halving Top-k Operator},
+      volume={35},
+      url={https://ojs.aaai.org/index.php/AAAI/article/view/17931},
+      number={18},
+      journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+      author={Pietruszka, Michał and Borchmann, Łukasz and Graliński, Filip},
+      year={2021},
+      month={May},
+      pages={15869-15870}
 }
 ```
 ## Reproduce
